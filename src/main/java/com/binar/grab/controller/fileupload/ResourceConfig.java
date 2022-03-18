@@ -20,4 +20,9 @@ public class ResourceConfig implements WebMvcConfigurer {
 //        registry.addResourceHandler("/uploads/**").addResourceLocations("file:uploads/");
         registry.addResourceHandler("/showFile/**").addResourceLocations("file:cdn/");
     }
+//    @Override // cara call engpoint : localhost:9090/api/showFile/namafile.png:
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+////        registry.addResourceHandler("/uploads/**").addResourceLocations("file:uploads/");
+//        registry.addResourceHandler("/v1/binar/barangshowFile/**").addResourceLocations("file:cdn/");
+//    }
 }
